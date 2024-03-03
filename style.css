@@ -1,0 +1,78 @@
+*{
+    /* margin-left: 20px; */
+    padding: 0;
+    /* background-color: rgb(226, 241, 241); */
+}
+.collaborate{
+    display: block;
+    
+}
+.collaborate, b{
+    margin-left: 120px;
+}
+
+.service{
+    display: flex;
+}
+.s1{
+    display: flex;
+    flex-direction: row;
+    
+}
+.service-info{
+    display:flex;
+    margin-left: 80px;
+
+}
+h3, #serv{
+    margin-left: 10px
+}
+.service-detail, h3{
+    display: flex;
+    margin-left: 80px;
+}
+.service-detail, p{
+    margin-left: 80px;
+
+}
+.service-link{
+    display: flex;
+    justify-content: left;
+}
+.image-holder-phone1{
+    display: flex;
+    margin-left: 400px;
+    
+}
+.image-holder-phone2{
+    display: flex;
+    margin-left: 450px;
+    
+}
+.image-holder-phone3{
+    display: flex;
+    margin-left: 350px;
+    
+}
+.image-holder-phone4{
+    display: flex;
+    margin-left: 410px;
+    
+}
+.btn{
+    color: white;
+    background-color: black;
+    margin-left: 80px;
+    height: 40px;
+    width: 120px;
+}
+body {
+    transition: background-color 0.5s;
+  }
+  .dark-mode {
+    background-color: #080707;
+    color:rgb(226, 241, 241); 
+  }
+  #photo{
+    transition: transform 0.5s ease;;
+  }

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    #photo {
+      transition: transform 0.5s ease;
+    }
+  </style>
+</head>
+<body>
+
+  <img id="photo" src="https://via.placeholder.com/150" alt="Your Photo" onclick="rotatePhoto()">
+
+  <script>
+    function rotatePhoto() {
+      const photo = document.getElementById('photo');
+      const currentRotation = window.getComputedStyle(photo).getPropertyValue('transform');
+      
+      if (currentRotation === 'none') {
+        photo.style.transform = 'rotate(180deg)';
+      } else {
+        photo.style.transform = 'none';
+      }
+    }
+  </script>
+
+</body>
+</html>
